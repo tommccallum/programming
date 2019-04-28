@@ -21,4 +21,5 @@ let y = if ( x == 5 ) {
   };
 ```
 
+In general, you can use expressions as statements, but you cannot use statements as expressions because statements do not evaluate to a value.  Expressions used as statements have their values discarded by the compiler as they are not used.
   
