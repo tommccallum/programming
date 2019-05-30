@@ -113,11 +113,11 @@ class TreeNode {
 	}
 	
 	// Draws this node as a rectangle with a value in at a point on the canvas
-	// @param 	top			the x coordinate to draw representing the LEFT
-	// @param 	left			the y coordinate to draw representing the TOP
+	// @param 	left			the x coordinate to draw representing the LEFT
+	// @param 	top			the y coordinate to draw representing the TOP
 	// @param 	height		the height of the box being drawn
 	// @return nothing
-	drawAsAgendaItem(top,left,height) {
+	drawAsAgendaItem(left,top,height) {
 		push()
 
 		// moved to top left
